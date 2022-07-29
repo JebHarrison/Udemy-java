@@ -33,5 +33,6 @@ public class ByteShortIntLong {
         byte mynewByteValue = (byte) (myMinByteValue / 2);
 
         short myNewShortValue = (short) (myMinShortValue / 2);
+        System.out.println(+myLongValue + mynewByteValue + myTotal - myValue + myNewShortValue + bigShortLiteralValue);
     }
 }
